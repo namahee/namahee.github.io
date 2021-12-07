@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="module">
-        var captar = "";
-        
-        function chamar() {
-            document.getElementById("ir").innerHTML = "kek";
-            try {
-              // const fs = require("fs");
-              import fs from "fs";
-              document.getElementById("id").innerHTML = "SURE";
-            } catch (err) {
-              // console.error(err);
-              document.getElementById("ir").innerHTML = err;
-            }
-            // captar = document.getElementById('roi').value;
-            // cocument.getElementById('ir').innerHTML = captar;
-        }
-    </script>
+    <script type="module" src="index.js"></script>
 </head>
 <body>
     <audio controls>
@@ -27,7 +11,7 @@
     <hr />
     <input type="text" id="roi" />
     <input type="submit" onclick="chamar()" />
-    <p>Helou</p>
+    <p>Helouu</p>
     <h1 id="ir"></h1>
 </body>
 </html>
