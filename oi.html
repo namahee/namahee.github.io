@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        var captar = "";
+        function chamar() {
+            captar = document.getElementById('roi').value;
+            document.getElementById('ir').innerHTML = captar;
+        }
+    </script>
+</head>
+<body>
+    <audio controls>
+        <source src="/audio.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio tag.
+    </audio>
+    <hr />
+    <input type="text" id="roi" />
+    <input type="submit" onclick="chamar()" />
+    <h1 id="ir"></h1>
+</body>
+</html>
