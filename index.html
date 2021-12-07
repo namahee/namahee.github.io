@@ -6,8 +6,12 @@
         function chamar() {
             try {
               const fs = require("fs");
+              document.getElementById("id")
+              innerHTML = "SURE";
             } catch (err) {
-              console.error(err);
+              // console.error(err);
+              document.getElementById("ir")
+              innerHTML("NOPE");
             }
             // captar = document.getElementById('roi').value;
             // cocument.getElementById('ir').innerHTML = captar;
@@ -22,6 +26,7 @@
     <hr />
     <input type="text" id="roi" />
     <input type="submit" onclick="chamar()" />
+    <p>Oi</p>
     <h1 id="ir"></h1>
 </body>
 </html>
