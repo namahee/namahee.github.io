@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <script type="text/javascript" src="index.js"></script>
-</head>
-<body>
-    <audio controls>
-        <source src="/audio.mp3" type="audio/mpeg">
-        Seu navegador não suporta áudio tag.
-    </audio>
-    <hr />
-    <input type="text" id="roi" />
-    <input type="submit" onclick="chamar()" />
-    <p>Helouu</p>
-    <h1 id="ir"></h1>
-</body>
+    <head>
+        <link rel="alternate" type="application/rss+xml" title="Test Feed" href="https://namahee.github.io/feed" />
+        <title>Teste</title>
+    </head>
+    <script type="text/javascript">
+        function alertThing() {
+            let thing = document.getElementById("k").value;
+            if (thing) {
+                alert(thing);
+            }
+        }
+    </script>
+    <style>
+        * {
+            text-align: center;
+        }
+        .box {
+            position: absolute;
+            top: 15%;
+            left: 25%;
+        }
+        #test {
+            color: black;
+            background-color: floralwhite;
+            border-color: dodgerblue;
+            padding: 10px;
+            border-radius: 100px;
+        }
+        #k {
+            border-radius: 50px;
+        }
+        #test:hover {
+            border-color: darkblue;
+            background: linear-gradient(to right, rgb(0, 80, 172), rgb(50, 197, 255));
+        }
+    </style>
+    <body>
+        <div class="box">
+            <input id="k" type="text" placeholder="ala"/>
+            <br /> <br />
+            <input id="test" type="submit" onclick="alertThing()"/>
+        </div>
+    </body>
 </html>
