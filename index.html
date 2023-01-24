@@ -5,12 +5,14 @@
         <title>Teste</title>
     </head>
     <script type="text/javascript">
-        document.getElementById("test").on("click", function() {
-            let thing = document.getElementById("k").value;
-            if (thing) {
-                alert(thing);
-            }
-        });
+        (function () {
+            document.getElementById("test").on("click", function() {
+                let thing = document.getElementById("k").value;
+                if (thing) {
+                    alert(thing);
+                }
+            });
+        }).call(this)
     </script>
     <style>
         * {
