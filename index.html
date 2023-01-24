@@ -5,12 +5,12 @@
         <title>Teste</title>
     </head>
     <script type="text/javascript">
-        function alertThing() {
+        document.getElementById("test").on("click", function() {
             let thing = document.getElementById("k").value;
             if (thing) {
                 alert(thing);
             }
-        }
+        });
     </script>
     <style>
         * {
@@ -38,9 +38,9 @@
     </style>
     <body>
         <div class="box">
-            <input id="k" type="text" placeholder="ala"/>
+            <input id="k" type="text" placeholder="vrau"/>
             <br /> <br />
-            <input id="test" type="submit" onclick="alertThing()"/>
+            <input id="test" type="submit" />
         </div>
     </body>
 </html>
