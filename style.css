@@ -93,7 +93,7 @@ body .main #content p:last-child {
   color: inherit;
 }
 
-body #copyrights {
+#copyrights {
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -111,4 +111,8 @@ body #copyrights {
 #copyrights a:hover {
   color: white;
   transition: all 0.2s ease-in;
+}
+
+#copyrights span {
+  color: red;
 }
