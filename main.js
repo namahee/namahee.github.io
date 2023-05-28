@@ -3,7 +3,7 @@ function decides() {
   if(!x){
     document.getElementById("audio").play();
     document.getElementById("image").src = "./pause_image.png";
-    document.getElementById("playing").innerHTML = "Yot Club - YKWIM is playing..."
+    document.getElementById("playing").innerHTML = "Yot Club - YKWIM is playing...";
     document.getElementById("br1").hidden = false;
     document.getElementById("br2").hidden = false;
     x = true;
