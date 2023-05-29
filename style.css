@@ -96,7 +96,7 @@ body .main #content p:last-child {
 #copyrights {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    top: 690px;
     color: #e6dbae;
     font-family: "Quicksand", sans-serif;
     text-align: center;
