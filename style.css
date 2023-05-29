@@ -94,7 +94,7 @@ body .main #content p:last-child {
 }
 
 #copyrights {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 690px;
     color: #e6dbae;
