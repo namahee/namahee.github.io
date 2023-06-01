@@ -94,9 +94,9 @@ body .main #content p:last-child {
 }
 
 #copyrights {
-    position: relative;
+    position: absolute;
     width: 100%;
-    top: 690px;
+    
     color: #e6dbae;
     font-family: "Quicksand", sans-serif;
     text-align: center;
