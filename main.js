@@ -25,5 +25,7 @@ function twoSides() {
   } else {
     document.getElementById("two").innerHTML = "love";
     document.getElementById("two").href = "/hate.html";
+    wait(1000);
+    document.getElementById("two").href = "";
   }
 }
