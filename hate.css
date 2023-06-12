@@ -35,7 +35,8 @@ span {
 }
 
 #text {
-  padding-left: 12px;
+  padding-left: 8px;
+  padding-right: 5px;
   position: absolute;
 }
 p {
