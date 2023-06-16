@@ -6,6 +6,7 @@ function decides() {
     document.getElementById("playing").innerHTML = "Yot Club - YKWIM is playing...";
     document.getElementById("br1").hidden = false;
     document.getElementById("br2").hidden = false;
+    document.getElementById("my-things").style.paddingTop = 0;
     x = true;
   } else {
     document.getElementById("audio").pause();
@@ -13,6 +14,7 @@ function decides() {
     document.getElementById("playing").innerHTML = "";
     document.getElementById("br1").hidden = true;
     document.getElementById("br2").hidden = true;
+    document.getElementById("my-things").style.paddingTop = "16px";
     x = false;
   }
 }
