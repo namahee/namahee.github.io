@@ -3,6 +3,7 @@ function decides() {
   if(!x){
     document.getElementById("audio").play();
     document.getElementById("image").src = "files/pause_image.png";
+    document.getElementById("link").href = "css/style2.css";
     document.getElementById("playing").innerHTML = "Beach Weather - Sex, Drugs, Etc. is playing...";
     document.getElementById("br1").hidden = false;
     document.getElementById("br2").hidden = false;
@@ -11,6 +12,7 @@ function decides() {
   } else {
     document.getElementById("audio").pause();
     document.getElementById("image").src = "files/play_image.png"
+    document.getElementById("link").href = "css/style.css";
     document.getElementById("playing").innerHTML = "";
     document.getElementById("br1").hidden = true;
     document.getElementById("br2").hidden = true;
